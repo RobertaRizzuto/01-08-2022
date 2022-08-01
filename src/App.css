@@ -1,6 +1,24 @@
-.App {
-  text-align: center;
+html{
+  background-image: url(https://gsud.cdn-immedia.net/2019/10/bandiera-della-sicilia-1024x768.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-position: bottom;
+ 
 }
+.App {
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.824);
+  padding: 30px;
+ 
+  
+  
+}
+
 
 .App-logo {
   height: 40vmin;
