@@ -8,9 +8,14 @@
   transition: all 0.35s;
   background-color: rgba(247, 159, 53, 0.676);
   margin: 10px;
-}
-
-.Button:hover {
-  filter: saturate(0.6);
+  transition: all 0.35s ease;
+  &:hover {
+    font-size: large;
+    background-color: rgb(247, 207, 131);
+  }
+  &:disabled {
+    filter: saturate(0.3);
+    color: grey;
+  }
 }
 

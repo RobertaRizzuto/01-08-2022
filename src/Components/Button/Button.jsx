@@ -1,8 +1,8 @@
-import './index.css';
+import styles from './index.module.scss';
 
-const Button = ({textContent, onBtnClick}) => {
+const Button = ({textContent, onBtnClick, disabled=false }) => {
   return (
-    <button onClick={onBtnClick}  className="Button">{ textContent }</button>
+    <button className={styles.Button} onClick={onBtnClick} disabled={disabled} >{ textContent }</button>
   )
 }
 
